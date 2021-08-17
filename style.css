@@ -1,0 +1,21 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background: url(IndexPictures/background-image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  color: white;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: "Luminari, fantasy";
+  margin-top: 30px;
+}
