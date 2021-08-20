@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <script defer src="contact.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-sm">
+        <ul class="navbar-nav">
+          <li class="nav-item active" id="curMenu">
+            <a class="nav-link" href="index.html"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html"> About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Projects.html"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.html"> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container" id="contact">
+      <h1 class="display">Contact Me</h1>
+      <section id="contactMessage">
+        <h2>Contact me at chitram2@pdx.edu or use this form</h2>
+      </section>
+      <br>
+      <form class="container">
+        <div class="form-group">
+           <label for="name">Name:</label>
+             <input type="name" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>           
+            <input type="text" class="form-control" id="email" required>
+          </div>      
+        <div class="form-group">
+          <label for="message">Type your message:</label>
+          <textarea class="form-control" id="message" aria-label="With textarea" rows="5" required></textarea>
+        </div>
+        <br>
+        <div class="text-center form-group">
+            <button class="btn btn-primary" type="Submit">Submit</button>
+            <button class="btn btn-secondary" type="Reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
