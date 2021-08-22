@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  word-wrap: break-word;
+  background-color: lightblue;
+  padding: 30px;
+  max-width: 80%;
+  margin-top: 30px;
+}
+p {
+  text-align: left;
+  padding-top: 10px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 476px) {
+  .card {
+    width: 90%;
+    max-width: 100%;
+  }
+}

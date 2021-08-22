@@ -27,7 +27,7 @@ a.fill-div {
 }
 
 .image:hover {
-  box-shadow: 0 0 5px 5px rgb(0, 255, 213);
+  box-shadow: 0 0 5px 5px turquoise;
   filter: unset;
 }
 

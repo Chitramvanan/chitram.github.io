@@ -1,10 +1,10 @@
 .container {
   border: none;
 }
-
 .card {
   width: 60%;
   padding: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }

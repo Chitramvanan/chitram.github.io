@@ -9,9 +9,12 @@ img {
 p {
   text-align: left;
   padding-top: 10px;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
 }
-h2 {
+h1 {
   color: white;
   text-align: center;
+  padding-top: 20px;
+  font-size: 2rem;
 }

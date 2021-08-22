@@ -17,3 +17,6 @@ header {
 .navbar {
   background-color: lightsteelblue;
 }
+.nav-link {
+  color: darkblue;
+}
