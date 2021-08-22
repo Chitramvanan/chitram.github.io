@@ -1,10 +1,18 @@
-.container {
-  border: none;
+.card-title {
+  color: White;
+  text-align: center;
+  margin-top: 30px;
 }
 .card {
-  width: 60%;
-  padding: 0px;
+  width: 90%;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  background-color: lightblue;
+}
+.resume-card-img {
+  width: 100%;
+  border-radius: 5mm;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

@@ -3,9 +3,10 @@
   flex-flow: column wrap;
   word-wrap: break-word;
   background-color: lightblue;
-  padding: 30px;
+  padding-top: 30px;
   max-width: 80%;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 p {
   text-align: left;
